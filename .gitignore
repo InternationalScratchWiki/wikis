@@ -1,0 +1,15 @@
+wiki/w/cache
+wiki/w/docs
+wiki/w/images
+wiki/w/tests
+wiki/w/languages
+wiki/w/logs
+wiki/w/maintenance/.mw*_history
+cache/
+images/
+logs/
+error_log
+.ftpquota
+*.gz
+*.save
+*.vs*

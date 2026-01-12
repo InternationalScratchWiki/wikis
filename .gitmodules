@@ -1,0 +1,105 @@
+[submodule "wiki/w/extensions/AbuseFilter"]
+	path = wiki/w/extensions/AbuseFilter
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/AbuseFilter
+[submodule "wiki/w/extensions/CategoryTree"]
+	path = wiki/w/extensions/CategoryTree
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CategoryTree
+[submodule "wiki/w/extensions/Cite"]
+	path = wiki/w/extensions/Cite
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite
+[submodule "wiki/w/extensions/CodeEditor"]
+	path = wiki/w/extensions/CodeEditor
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeEditor
+[submodule "wiki/w/extensions/ConfirmEdit"]
+	path = wiki/w/extensions/ConfirmEdit
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit
+[submodule "wiki/w/extensions/DiscussionTools"]
+	path = wiki/w/extensions/DiscussionTools
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/DiscussionTools
+[submodule "wiki/w/extensions/Gadgets"]
+	path = wiki/w/extensions/Gadgets
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Gadgets
+[submodule "wiki/w/extensions/ImageMap"]
+	path = wiki/w/extensions/ImageMap
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ImageMap
+[submodule "wiki/w/extensions/InputBox"]
+	path = wiki/w/extensions/InputBox
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/InputBox
+[submodule "wiki/w/extensions/Interwiki"]
+	path = wiki/w/extensions/Interwiki
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Interwiki
+[submodule "wiki/w/extensions/Linter"]
+	path = wiki/w/extensions/Linter
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Linter
+[submodule "wiki/w/extensions/LoginNotify"]
+	path = wiki/w/extensions/LoginNotify
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/LoginNotify
+[submodule "wiki/w/extensions/Math"]
+	path = wiki/w/extensions/Math
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Math
+[submodule "wiki/w/extensions/MultimediaViewer"]
+	path = wiki/w/extensions/MultimediaViewer
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer
+[submodule "wiki/w/extensions/Nuke"]
+	path = wiki/w/extensions/Nuke
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Nuke
+[submodule "wiki/w/extensions/OATHAuth"]
+	path = wiki/w/extensions/OATHAuth
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/OATHAuth
+[submodule "wiki/w/extensions/PageImages"]
+	path = wiki/w/extensions/PageImages
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/PageImages
+[submodule "wiki/w/extensions/ParserFunctions"]
+	path = wiki/w/extensions/ParserFunctions
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions
+[submodule "wiki/w/extensions/PdfHandler"]
+	path = wiki/w/extensions/PdfHandler
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/PdfHandler
+[submodule "wiki/w/extensions/Poem"]
+	path = wiki/w/extensions/Poem
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Poem
+[submodule "wiki/w/extensions/ReplaceText"]
+	path = wiki/w/extensions/ReplaceText
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ReplaceText
+[submodule "wiki/w/extensions/Scribunto"]
+	path = wiki/w/extensions/Scribunto
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Scribunto
+[submodule "wiki/w/extensions/SecureLinkFixer"]
+	path = wiki/w/extensions/SecureLinkFixer
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/SecureLinkFixer
+[submodule "wiki/w/extensions/SpamBlacklist"]
+	path = wiki/w/extensions/SpamBlacklist
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/SpamBlacklist
+[submodule "wiki/w/extensions/SyntaxHighlight_GeSHi"]
+	path = wiki/w/extensions/SyntaxHighlight_GeSHi
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/SyntaxHighlight_GeSHi
+[submodule "wiki/w/extensions/TemplateData"]
+	path = wiki/w/extensions/TemplateData
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateData
+[submodule "wiki/w/extensions/TextExtracts"]
+	path = wiki/w/extensions/TextExtracts
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TextExtracts
+[submodule "wiki/w/extensions/Thanks"]
+	path = wiki/w/extensions/Thanks
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Thanks
+[submodule "wiki/w/extensions/TitleBlacklist"]
+	path = wiki/w/extensions/TitleBlacklist
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TitleBlacklist
+[submodule "wiki/w/extensions/VisualEditor"]
+	path = wiki/w/extensions/VisualEditor
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor
+[submodule "wiki/w/extensions/WikiEditor"]
+	path = wiki/w/extensions/WikiEditor
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiEditor
+[submodule "wiki/w/skins/MinervaNeue"]
+	path = wiki/w/skins/MinervaNeue
+	url = https://gerrit.wikimedia.org/r/mediawiki/skins/MinervaNeue
+[submodule "wiki/w/skins/MonoBook"]
+	path = wiki/w/skins/MonoBook
+	url = https://gerrit.wikimedia.org/r/mediawiki/skins/MonoBook
+[submodule "wiki/w/skins/Timeless"]
+	path = wiki/w/skins/Timeless
+	url = https://gerrit.wikimedia.org/r/mediawiki/skins/Timeless
+[submodule "wiki/w/skins/Vector"]
+	path = wiki/w/skins/Vector
+	url = https://gerrit.wikimedia.org/r/mediawiki/skins/Vector
