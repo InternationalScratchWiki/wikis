@@ -103,3 +103,9 @@
 [submodule "wiki/w/skins/Vector"]
 	path = wiki/w/skins/Vector
 	url = https://gerrit.wikimedia.org/r/mediawiki/skins/Vector
+[submodule "wiki/w/skins/ScratchWikiSkin2"]
+	path = wiki/w/skins/ScratchWikiSkin2
+	url = https://github.com/InternationalScratchWiki/ScratchWikiSkin2
+[submodule "wiki/w/extensions/Echo"]
+	path = wiki/w/extensions/Echo
+	url = https://github.com/InternationalScratchWiki/Echo
