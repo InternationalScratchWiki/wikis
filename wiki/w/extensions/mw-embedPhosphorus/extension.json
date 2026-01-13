@@ -1,0 +1,35 @@
+{
+	"name": "EmbedPhosphorus",
+	"version": "2.0.0",
+	"author": [
+		"Apple502j",
+		"Kenny2scratch",
+		"jvvg"
+	],
+	"descriptionmsg": "embedphosphorus-desc",
+	"license-name": "GPLv3",
+	"type": "parserhook",
+	"namespaces": [],
+	"AutoloadClasses": {
+		"EmbedPhosphorus": "EmbedPhosphorus.php"
+	},
+	"ContentHandlers": {},
+	"ExtensionMessagesFiles": {},
+	"Hooks": {
+		"ParserFirstCallInit": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "EmbedPhosphorus"
+		}
+	},
+	"MessagesDirs": {
+		"EmbedPhosphorus": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	}
+}

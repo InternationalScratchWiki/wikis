@@ -1,0 +1,31 @@
+{
+	"name": "Resource Logger",
+	"descriptionmsg": "",
+	"author": [
+		"Jacob G. (jvvg)"
+	],
+	"url": "",
+	"version": "0.2",
+	"license-name": "GPL-2.0-or-later",
+	"MessagesDirs": {
+	},
+	"AutoloadClasses": {
+		"ResourceLoggerHooks": "src/ResourceLoggerHooks.php"
+	},
+	"Hooks": {
+		"SpecialPageAfterExecute": "main",
+		"APIAfterExecute": "main",
+		"ParserAfterTidy": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "ResourceLoggerHooks"
+		}
+	},
+	"config": {
+	},
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	}
+}

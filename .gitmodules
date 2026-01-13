@@ -109,3 +109,168 @@
 [submodule "wiki/w/extensions/Echo"]
 	path = wiki/w/extensions/Echo
 	url = https://github.com/InternationalScratchWiki/Echo
+[submodule "wiki/w/extensions/mw-ScratchBlocks4"]
+	path = wiki/w/extensions/mw-ScratchBlocks4
+	url = https://github.com/InternationalScratchWiki/mw-ScratchBlocks4
+[submodule "wiki/w/extensions/scratch-confirmaccount-v3"]
+	path = wiki/w/extensions/scratch-confirmaccount-v3
+	url = https://github.com/InternationalScratchWiki/scratch-confirmaccount-v3
+[submodule "wiki/w/extensions/mediawiki-elections"]
+	path = wiki/w/extensions/mediawiki-elections
+	url = https://github.com/InternationalScratchWiki/mediawiki-elections
+[submodule "wiki/w/extensions/OSBlocks"]
+	path = wiki/w/extensions/OSBlocks
+	url = https://github.com/InternationalScratchWiki/OSBlocks
+[submodule "wiki/w/extensions/DiffBlocker"]
+	path = wiki/w/extensions/DiffBlocker
+	url = https://github.com/InternationalScratchWiki/DiffBlocker
+[submodule "wiki/w/extensions/scratch-confirmaccount-v3-webhooks"]
+	path = wiki/w/extensions/scratch-confirmaccount-v3-webhooks
+	url = https://github.com/InternationalScratchWiki/scratch-confirmaccount-v3-webhooks
+[submodule "wiki/w/extensions/SyntaxHighlight_PrismJS"]
+	path = wiki/w/extensions/SyntaxHighlight_PrismJS
+	url = https://github.com/InternationalScratchWiki/SyntaxHighlight_PrismJS
+[submodule "wiki/w/extensions/HiddenBlockAppealEmail"]
+	path = wiki/w/extensions/HiddenBlockAppealEmail
+	url = https://github.com/InternationalScratchWiki/HiddenBlockAppealEmail
+[submodule "wiki/w/extensions/mw-scratchsig3"]
+	path = wiki/w/extensions/mw-scratchsig3
+	url = https://github.com/InternationalScratchWiki/mw-scratchsig3
+[submodule "wiki/w/extensions/mediawiki-scratch-login"]
+	path = wiki/w/extensions/mediawiki-scratch-login
+	url = https://github.com/InternationalScratchWiki/mediawiki-scratch-login
+[submodule "wiki/w/extensions/mw-embedScratch"]
+	path = wiki/w/extensions/mw-embedScratch
+	url = https://github.com/InternationalScratchWiki/mw-embedScratch
+[submodule "wiki/w/extensions/EmbedVideo"]
+	path = wiki/w/extensions/EmbedVideo
+	url = https://github.com/StarCitizenWiki/mediawiki-extensions-EmbedVideo
+[submodule "wiki/w/extensions/RecentChangesWebhooks"]
+	path = wiki/w/extensions/RecentChangesWebhooks
+	url = https://github.com/Kenny2github/RecentChangesWebhooks
+[submodule "wiki/w/extensions/Report"]
+	path = wiki/w/extensions/Report
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Report
+[submodule "wiki/w/extensions/EventStreamConfig"]
+	path = wiki/w/extensions/EventStreamConfig
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/EventStreamConfig
+[submodule "wiki/w/extensions/EventLogging"]
+	path = wiki/w/extensions/EventLogging
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/EventLogging
+[submodule "wiki/w/extensions/Loops"]
+	path = wiki/w/extensions/Loops
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Loops
+[submodule "wiki/w/extensions/WikiSEO"]
+	path = wiki/w/extensions/WikiSEO
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiSEO
+[submodule "wiki/w/extensions/HitCounters"]
+	path = wiki/w/extensions/HitCounters
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/HitCounters
+[submodule "wiki/w/extensions/BetaFeatures"]
+	path = wiki/w/extensions/BetaFeatures
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/BetaFeatures
+[submodule "wiki/w/extensions/CharInsert"]
+	path = wiki/w/extensions/CharInsert
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CharInsert
+[submodule "wiki/w/extensions/CheckUser"]
+	path = wiki/w/extensions/CheckUser
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CheckUser
+[submodule "wiki/w/extensions/CiteThisPage"]
+	path = wiki/w/extensions/CiteThisPage
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CiteThisPage
+[submodule "wiki/w/extensions/CodeMirror"]
+	path = wiki/w/extensions/CodeMirror
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeMirror
+[submodule "wiki/w/extensions/CookieWarning"]
+	path = wiki/w/extensions/CookieWarning
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CookieWarning
+[submodule "wiki/w/extensions/Description2"]
+	path = wiki/w/extensions/Description2
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Description2
+[submodule "wiki/w/extensions/Disambiguator"]
+	path = wiki/w/extensions/Disambiguator
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Disambiguator
+[submodule "wiki/w/extensions/DismissableSiteNotice"]
+	path = wiki/w/extensions/DismissableSiteNotice
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/DismissableSiteNotice
+[submodule "wiki/w/extensions/Editcount"]
+	path = wiki/w/extensions/Editcount
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Editcount
+[submodule "wiki/w/extensions/GuidedTour"]
+	path = wiki/w/extensions/GuidedTour
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/GuidedTour
+[submodule "wiki/w/extensions/HeadScript"]
+	path = wiki/w/extensions/HeadScript
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/HeadScript
+[submodule "wiki/w/extensions/InterwikiSorting"]
+	path = wiki/w/extensions/InterwikiSorting
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/InterwikiSorting
+[submodule "wiki/w/extensions/LabeledSectionTransclusion"]
+	path = wiki/w/extensions/LabeledSectionTransclusion
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/LabeledSectionTransclusion
+[submodule "wiki/w/extensions/Lockdown"]
+	path = wiki/w/extensions/Lockdown
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Lockdown
+[submodule "wiki/w/extensions/MassMessage"]
+	path = wiki/w/extensions/MassMessage
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/MassMessage
+[submodule "wiki/w/extensions/MobileDetect"]
+	path = wiki/w/extensions/MobileDetect
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileDetect
+[submodule "wiki/w/extensions/NativeSvgHandler"]
+	path = wiki/w/extensions/NativeSvgHandler
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/NativeSvgHandler
+[submodule "wiki/w/extensions/NewestPages"]
+	path = wiki/w/extensions/NewestPages
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/NewestPages
+[submodule "wiki/w/extensions/OpenGraphMeta"]
+	path = wiki/w/extensions/OpenGraphMeta
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/OpenGraphMeta
+[submodule "wiki/w/extensions/Popups"]
+	path = wiki/w/extensions/Popups
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Popups
+[submodule "wiki/w/extensions/RandomInCategory"]
+	path = wiki/w/extensions/RandomInCategory
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/RandomInCategory
+[submodule "wiki/w/extensions/RandomSelection"]
+	path = wiki/w/extensions/RandomSelection
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/RandomSelection
+[submodule "wiki/w/extensions/RelatedArticles"]
+	path = wiki/w/extensions/RelatedArticles
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/RelatedArticles
+[submodule "wiki/w/extensions/Renameuser"]
+	path = wiki/w/extensions/Renameuser
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Renameuser
+[submodule "wiki/w/extensions/RevisionSlider"]
+	path = wiki/w/extensions/RevisionSlider
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/RevisionSlider
+[submodule "wiki/w/extensions/Tabs"]
+	path = wiki/w/extensions/Tabs
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Tabs
+[submodule "wiki/w/extensions/TemplateStyles"]
+	path = wiki/w/extensions/TemplateStyles
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles
+[submodule "wiki/w/extensions/TwoColConflict"]
+	path = wiki/w/extensions/TwoColConflict
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TwoColConflict
+[submodule "wiki/w/extensions/Variables"]
+	path = wiki/w/extensions/Variables
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Variables
+[submodule "wiki/w/extensions/YouTube"]
+	path = wiki/w/extensions/YouTube
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/YouTube
+[submodule "wiki/w/extensions/intersection"]
+	path = wiki/w/extensions/intersection
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/intersection
+[submodule "wiki/w/extensions/DynamicPageList3"]
+	path = wiki/w/extensions/DynamicPageList3
+	url = https://github.com/Universal-Omega/DynamicPageList4
+[submodule "wiki/w/extensions/LiteSpeedCache"]
+	path = wiki/w/extensions/LiteSpeedCache
+	url = https://github.com/litespeedtech/lscache_mediawiki
+[submodule "wiki/w/extensions/AutoSitemap"]
+	path = wiki/w/extensions/AutoSitemap
+	url = https://github.com/dolfinus/AutoSitemap
+[submodule "wiki/w/extensions/GuguruSearch"]
+	path = wiki/w/extensions/GuguruSearch
+	url = https://github.com/apple502j/GuguruSearch
