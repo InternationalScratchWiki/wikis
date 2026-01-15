@@ -40,9 +40,10 @@ RewriteRule ^/?w/images/(.*)$ w/images/test/$1
 
 Header add Permissions-Policy "interest-cohort=()"
 
+# Require auth to access staging wiki
 <If "%{SERVER_NAME} =~ m#^staging\.scratch-wiki\.#">
 	#AuthType Basic
 	AuthName "Staging Scratch Wiki"
-	AuthUserFile %{DOCUMENT_ROOT}/../.htpasswd
+	AuthUserFile /home/scratchwiki/web/.htpasswd
 	Require valid-user
 </If>
