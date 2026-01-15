@@ -262,9 +262,6 @@
 [submodule "wiki/w/extensions/intersection"]
 	path = wiki/w/extensions/intersection
 	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/intersection
-[submodule "wiki/w/extensions/DynamicPageList3"]
-	path = wiki/w/extensions/DynamicPageList3
-	url = https://github.com/Universal-Omega/DynamicPageList4
 [submodule "wiki/w/extensions/LiteSpeedCache"]
 	path = wiki/w/extensions/LiteSpeedCache
 	url = https://github.com/litespeedtech/lscache_mediawiki
@@ -274,3 +271,6 @@
 [submodule "wiki/w/extensions/GuguruSearch"]
 	path = wiki/w/extensions/GuguruSearch
 	url = https://github.com/apple502j/GuguruSearch
+[submodule "wiki/w/extensions/DynamicPageList4"]
+	path = wiki/w/extensions/DynamicPageList4
+	url = https://github.com/Universal-Omega/DynamicPageList4
