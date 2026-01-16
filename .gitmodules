@@ -1,108 +1,143 @@
 [submodule "wiki/w/extensions/AbuseFilter"]
 	path = wiki/w/extensions/AbuseFilter
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/AbuseFilter
+	url = https://github.com/wikimedia/mediawiki-extensions-AbuseFilter
+	branch = REL1_43
 [submodule "wiki/w/extensions/CategoryTree"]
 	path = wiki/w/extensions/CategoryTree
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CategoryTree
+	url = https://github.com/wikimedia/mediawiki-extensions-CategoryTree
+	branch = REL1_43
 [submodule "wiki/w/extensions/Cite"]
 	path = wiki/w/extensions/Cite
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Cite
+	url = https://github.com/wikimedia/mediawiki-extensions-Cite
+	branch = REL1_43
 [submodule "wiki/w/extensions/CodeEditor"]
 	path = wiki/w/extensions/CodeEditor
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeEditor
+	url = https://github.com/wikimedia/mediawiki-extensions-CodeEditor
+	branch = REL1_43
 [submodule "wiki/w/extensions/ConfirmEdit"]
 	path = wiki/w/extensions/ConfirmEdit
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ConfirmEdit
+	url = https://github.com/wikimedia/mediawiki-extensions-ConfirmEdit
+	branch = REL1_43
 [submodule "wiki/w/extensions/DiscussionTools"]
 	path = wiki/w/extensions/DiscussionTools
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/DiscussionTools
+	url = https://github.com/wikimedia/mediawiki-extensions-DiscussionTools
+	branch = REL1_43
 [submodule "wiki/w/extensions/Gadgets"]
 	path = wiki/w/extensions/Gadgets
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Gadgets
+	url = https://github.com/wikimedia/mediawiki-extensions-Gadgets
+	branch = REL1_43
 [submodule "wiki/w/extensions/ImageMap"]
 	path = wiki/w/extensions/ImageMap
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ImageMap
+	url = https://github.com/wikimedia/mediawiki-extensions-ImageMap
+	branch = REL1_43
 [submodule "wiki/w/extensions/InputBox"]
 	path = wiki/w/extensions/InputBox
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/InputBox
+	url = https://github.com/wikimedia/mediawiki-extensions-InputBox
+	branch = REL1_43
 [submodule "wiki/w/extensions/Interwiki"]
 	path = wiki/w/extensions/Interwiki
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Interwiki
+	url = https://github.com/wikimedia/mediawiki-extensions-Interwiki
+	branch = REL1_43
 [submodule "wiki/w/extensions/Linter"]
 	path = wiki/w/extensions/Linter
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Linter
+	url = https://github.com/wikimedia/mediawiki-extensions-Linter
+	branch = REL1_43
 [submodule "wiki/w/extensions/LoginNotify"]
 	path = wiki/w/extensions/LoginNotify
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/LoginNotify
+	url = https://github.com/wikimedia/mediawiki-extensions-LoginNotify
+	branch = REL1_43
 [submodule "wiki/w/extensions/Math"]
 	path = wiki/w/extensions/Math
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Math
+	url = https://github.com/wikimedia/mediawiki-extensions-Math
+	branch = REL1_43
 [submodule "wiki/w/extensions/MultimediaViewer"]
 	path = wiki/w/extensions/MultimediaViewer
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/MultimediaViewer
+	url = https://github.com/wikimedia/mediawiki-extensions-MultimediaViewer
+	branch = REL1_43
 [submodule "wiki/w/extensions/Nuke"]
 	path = wiki/w/extensions/Nuke
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Nuke
+	url = https://github.com/wikimedia/mediawiki-extensions-Nuke
+	branch = REL1_43
 [submodule "wiki/w/extensions/OATHAuth"]
 	path = wiki/w/extensions/OATHAuth
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/OATHAuth
+	url = https://github.com/wikimedia/mediawiki-extensions-OATHAuth
+	branch = REL1_43
 [submodule "wiki/w/extensions/PageImages"]
 	path = wiki/w/extensions/PageImages
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/PageImages
+	url = https://github.com/wikimedia/mediawiki-extensions-PageImages
+	branch = REL1_43
 [submodule "wiki/w/extensions/ParserFunctions"]
 	path = wiki/w/extensions/ParserFunctions
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ParserFunctions
+	url = https://github.com/wikimedia/mediawiki-extensions-ParserFunctions
+	branch = REL1_43
 [submodule "wiki/w/extensions/PdfHandler"]
 	path = wiki/w/extensions/PdfHandler
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/PdfHandler
+	url = https://github.com/wikimedia/mediawiki-extensions-PdfHandler
+	branch = REL1_43
 [submodule "wiki/w/extensions/Poem"]
 	path = wiki/w/extensions/Poem
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Poem
+	url = https://github.com/wikimedia/mediawiki-extensions-Poem
+	branch = REL1_43
 [submodule "wiki/w/extensions/ReplaceText"]
 	path = wiki/w/extensions/ReplaceText
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/ReplaceText
+	url = https://github.com/wikimedia/mediawiki-extensions-ReplaceText
+	branch = REL1_43
 [submodule "wiki/w/extensions/Scribunto"]
 	path = wiki/w/extensions/Scribunto
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Scribunto
+	url = https://github.com/wikimedia/mediawiki-extensions-Scribunto
+	branch = REL1_43
 [submodule "wiki/w/extensions/SecureLinkFixer"]
 	path = wiki/w/extensions/SecureLinkFixer
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/SecureLinkFixer
+	url = https://github.com/wikimedia/mediawiki-extensions-SecureLinkFixer
+	branch = REL1_43
 [submodule "wiki/w/extensions/SpamBlacklist"]
 	path = wiki/w/extensions/SpamBlacklist
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/SpamBlacklist
+	url = https://github.com/wikimedia/mediawiki-extensions-SpamBlacklist
+	branch = REL1_43
 [submodule "wiki/w/extensions/SyntaxHighlight_GeSHi"]
 	path = wiki/w/extensions/SyntaxHighlight_GeSHi
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/SyntaxHighlight_GeSHi
+	url = https://github.com/wikimedia/mediawiki-extensions-SyntaxHighlight_GeSHi
+	branch = REL1_43
 [submodule "wiki/w/extensions/TemplateData"]
 	path = wiki/w/extensions/TemplateData
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateData
+	url = https://github.com/wikimedia/mediawiki-extensions-TemplateData
+	branch = REL1_43
 [submodule "wiki/w/extensions/TextExtracts"]
 	path = wiki/w/extensions/TextExtracts
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TextExtracts
+	url = https://github.com/wikimedia/mediawiki-extensions-TextExtracts
+	branch = REL1_43
 [submodule "wiki/w/extensions/Thanks"]
 	path = wiki/w/extensions/Thanks
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Thanks
+	url = https://github.com/wikimedia/mediawiki-extensions-Thanks
+	branch = REL1_43
 [submodule "wiki/w/extensions/TitleBlacklist"]
 	path = wiki/w/extensions/TitleBlacklist
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TitleBlacklist
+	url = https://github.com/wikimedia/mediawiki-extensions-TitleBlacklist
+	branch = REL1_43
 [submodule "wiki/w/extensions/VisualEditor"]
 	path = wiki/w/extensions/VisualEditor
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/VisualEditor
+	url = https://github.com/wikimedia/mediawiki-extensions-VisualEditor
+	branch = REL1_43
 [submodule "wiki/w/extensions/WikiEditor"]
 	path = wiki/w/extensions/WikiEditor
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiEditor
+	url = https://github.com/wikimedia/mediawiki-extensions-WikiEditor
+	branch = REL1_43
 [submodule "wiki/w/skins/MinervaNeue"]
 	path = wiki/w/skins/MinervaNeue
-	url = https://gerrit.wikimedia.org/r/mediawiki/skins/MinervaNeue
+	url = https://github.com/wikimedia/mediawiki-skins-MinervaNeue
+	branch = REL1_43
 [submodule "wiki/w/skins/MonoBook"]
 	path = wiki/w/skins/MonoBook
-	url = https://gerrit.wikimedia.org/r/mediawiki/skins/MonoBook
+	url = https://github.com/wikimedia/mediawiki-skins-MonoBook
+	branch = REL1_43
 [submodule "wiki/w/skins/Timeless"]
 	path = wiki/w/skins/Timeless
-	url = https://gerrit.wikimedia.org/r/mediawiki/skins/Timeless
+	url = https://github.com/wikimedia/mediawiki-skins-Timeless
+	branch = REL1_43
 [submodule "wiki/w/skins/Vector"]
 	path = wiki/w/skins/Vector
-	url = https://gerrit.wikimedia.org/r/mediawiki/skins/Vector
+	url = https://github.com/wikimedia/mediawiki-skins-Vector
+	branch = REL1_43
 [submodule "wiki/w/skins/ScratchWikiSkin2"]
 	path = wiki/w/skins/ScratchWikiSkin2
 	url = https://github.com/InternationalScratchWiki/ScratchWikiSkin2
@@ -145,123 +180,162 @@
 [submodule "wiki/w/extensions/EmbedVideo"]
 	path = wiki/w/extensions/EmbedVideo
 	url = https://github.com/StarCitizenWiki/mediawiki-extensions-EmbedVideo
+	branch = REL1_43
 [submodule "wiki/w/extensions/RecentChangesWebhooks"]
 	path = wiki/w/extensions/RecentChangesWebhooks
 	url = https://github.com/Kenny2github/RecentChangesWebhooks
 [submodule "wiki/w/extensions/Report"]
 	path = wiki/w/extensions/Report
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Report
+	url = https://github.com/wikimedia/mediawiki-extensions-Report
+	branch = REL1_43
 [submodule "wiki/w/extensions/EventStreamConfig"]
 	path = wiki/w/extensions/EventStreamConfig
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/EventStreamConfig
+	url = https://github.com/wikimedia/mediawiki-extensions-EventStreamConfig
+	branch = REL1_43
 [submodule "wiki/w/extensions/EventLogging"]
 	path = wiki/w/extensions/EventLogging
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/EventLogging
+	url = https://github.com/wikimedia/mediawiki-extensions-EventLogging
+	branch = REL1_43
 [submodule "wiki/w/extensions/Loops"]
 	path = wiki/w/extensions/Loops
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Loops
+	url = https://github.com/wikimedia/mediawiki-extensions-Loops
+	branch = REL1_43
 [submodule "wiki/w/extensions/WikiSEO"]
 	path = wiki/w/extensions/WikiSEO
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/WikiSEO
+	url = https://github.com/wikimedia/mediawiki-extensions-WikiSEO
+	branch = REL1_43
 [submodule "wiki/w/extensions/HitCounters"]
 	path = wiki/w/extensions/HitCounters
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/HitCounters
+	url = https://github.com/wikimedia/mediawiki-extensions-HitCounters
+	branch = REL1_43
 [submodule "wiki/w/extensions/BetaFeatures"]
 	path = wiki/w/extensions/BetaFeatures
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/BetaFeatures
+	url = https://github.com/wikimedia/mediawiki-extensions-BetaFeatures
+	branch = REL1_43
 [submodule "wiki/w/extensions/CharInsert"]
 	path = wiki/w/extensions/CharInsert
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CharInsert
+	url = https://github.com/wikimedia/mediawiki-extensions-CharInsert
+	branch = REL1_43
 [submodule "wiki/w/extensions/CheckUser"]
 	path = wiki/w/extensions/CheckUser
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CheckUser
+	url = https://github.com/wikimedia/mediawiki-extensions-CheckUser
+	branch = REL1_43
 [submodule "wiki/w/extensions/CiteThisPage"]
 	path = wiki/w/extensions/CiteThisPage
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CiteThisPage
+	url = https://github.com/wikimedia/mediawiki-extensions-CiteThisPage
+	branch = REL1_43
 [submodule "wiki/w/extensions/CodeMirror"]
 	path = wiki/w/extensions/CodeMirror
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CodeMirror
+	url = https://github.com/wikimedia/mediawiki-extensions-CodeMirror
+	branch = REL1_43
 [submodule "wiki/w/extensions/CookieWarning"]
 	path = wiki/w/extensions/CookieWarning
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/CookieWarning
+	url = https://github.com/wikimedia/mediawiki-extensions-CookieWarning
+	branch = REL1_43
 [submodule "wiki/w/extensions/Description2"]
 	path = wiki/w/extensions/Description2
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Description2
+	url = https://github.com/wikimedia/mediawiki-extensions-Description2
+	branch = REL1_43
 [submodule "wiki/w/extensions/Disambiguator"]
 	path = wiki/w/extensions/Disambiguator
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Disambiguator
+	url = https://github.com/wikimedia/mediawiki-extensions-Disambiguator
+	branch = REL1_43
 [submodule "wiki/w/extensions/DismissableSiteNotice"]
 	path = wiki/w/extensions/DismissableSiteNotice
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/DismissableSiteNotice
+	url = https://github.com/wikimedia/mediawiki-extensions-DismissableSiteNotice
+	branch = REL1_43
 [submodule "wiki/w/extensions/Editcount"]
 	path = wiki/w/extensions/Editcount
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Editcount
+	url = https://github.com/wikimedia/mediawiki-extensions-Editcount
+	branch = REL1_43
 [submodule "wiki/w/extensions/GuidedTour"]
 	path = wiki/w/extensions/GuidedTour
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/GuidedTour
+	url = https://github.com/wikimedia/mediawiki-extensions-GuidedTour
+	branch = REL1_43
 [submodule "wiki/w/extensions/HeadScript"]
 	path = wiki/w/extensions/HeadScript
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/HeadScript
+	url = https://github.com/wikimedia/mediawiki-extensions-HeadScript
+	branch = REL1_43
 [submodule "wiki/w/extensions/InterwikiSorting"]
 	path = wiki/w/extensions/InterwikiSorting
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/InterwikiSorting
+	url = https://github.com/wikimedia/mediawiki-extensions-InterwikiSorting
+	branch = REL1_43
 [submodule "wiki/w/extensions/LabeledSectionTransclusion"]
 	path = wiki/w/extensions/LabeledSectionTransclusion
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/LabeledSectionTransclusion
+	url = https://github.com/wikimedia/mediawiki-extensions-LabeledSectionTransclusion
+	branch = REL1_43
 [submodule "wiki/w/extensions/Lockdown"]
 	path = wiki/w/extensions/Lockdown
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Lockdown
+	url = https://github.com/wikimedia/mediawiki-extensions-Lockdown
+	branch = REL1_43
 [submodule "wiki/w/extensions/MassMessage"]
 	path = wiki/w/extensions/MassMessage
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/MassMessage
+	url = https://github.com/wikimedia/mediawiki-extensions-MassMessage
+	branch = REL1_43
 [submodule "wiki/w/extensions/MobileDetect"]
 	path = wiki/w/extensions/MobileDetect
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileDetect
+	url = https://github.com/wikimedia/mediawiki-extensions-MobileDetect
+	branch = REL1_43
 [submodule "wiki/w/extensions/NativeSvgHandler"]
 	path = wiki/w/extensions/NativeSvgHandler
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/NativeSvgHandler
+	url = https://github.com/wikimedia/mediawiki-extensions-NativeSvgHandler
+	branch = REL1_43
 [submodule "wiki/w/extensions/NewestPages"]
 	path = wiki/w/extensions/NewestPages
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/NewestPages
+	url = https://github.com/wikimedia/mediawiki-extensions-NewestPages
+	branch = REL1_43
 [submodule "wiki/w/extensions/OpenGraphMeta"]
 	path = wiki/w/extensions/OpenGraphMeta
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/OpenGraphMeta
+	url = https://github.com/wikimedia/mediawiki-extensions-OpenGraphMeta
+	branch = REL1_43
 [submodule "wiki/w/extensions/Popups"]
 	path = wiki/w/extensions/Popups
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Popups
+	url = https://github.com/wikimedia/mediawiki-extensions-Popups
+	branch = REL1_43
 [submodule "wiki/w/extensions/RandomInCategory"]
 	path = wiki/w/extensions/RandomInCategory
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/RandomInCategory
+	url = https://github.com/wikimedia/mediawiki-extensions-RandomInCategory
+	branch = REL1_43
 [submodule "wiki/w/extensions/RandomSelection"]
 	path = wiki/w/extensions/RandomSelection
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/RandomSelection
+	url = https://github.com/wikimedia/mediawiki-extensions-RandomSelection
+	branch = REL1_43
 [submodule "wiki/w/extensions/RelatedArticles"]
 	path = wiki/w/extensions/RelatedArticles
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/RelatedArticles
+	url = https://github.com/wikimedia/mediawiki-extensions-RelatedArticles
+	branch = REL1_43
 [submodule "wiki/w/extensions/Renameuser"]
 	path = wiki/w/extensions/Renameuser
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Renameuser
+	url = https://github.com/wikimedia/mediawiki-extensions-Renameuser
+	branch = REL1_43
 [submodule "wiki/w/extensions/RevisionSlider"]
 	path = wiki/w/extensions/RevisionSlider
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/RevisionSlider
+	url = https://github.com/wikimedia/mediawiki-extensions-RevisionSlider
+	branch = REL1_43
 [submodule "wiki/w/extensions/Tabs"]
 	path = wiki/w/extensions/Tabs
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Tabs
+	url = https://github.com/wikimedia/mediawiki-extensions-Tabs
+	branch = REL1_43
 [submodule "wiki/w/extensions/TemplateStyles"]
 	path = wiki/w/extensions/TemplateStyles
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles
+	url = https://github.com/wikimedia/mediawiki-extensions-TemplateStyles
+	branch = REL1_43
 [submodule "wiki/w/extensions/TwoColConflict"]
 	path = wiki/w/extensions/TwoColConflict
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/TwoColConflict
+	url = https://github.com/wikimedia/mediawiki-extensions-TwoColConflict
+	branch = REL1_43
 [submodule "wiki/w/extensions/Variables"]
 	path = wiki/w/extensions/Variables
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Variables
+	url = https://github.com/wikimedia/mediawiki-extensions-Variables
+	branch = REL1_43
 [submodule "wiki/w/extensions/YouTube"]
 	path = wiki/w/extensions/YouTube
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/YouTube
+	url = https://github.com/wikimedia/mediawiki-extensions-YouTube
+	branch = REL1_43
 [submodule "wiki/w/extensions/intersection"]
 	path = wiki/w/extensions/intersection
-	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/intersection
+	url = https://github.com/wikimedia/mediawiki-extensions-intersection
+	branch = REL1_43
 [submodule "wiki/w/extensions/LiteSpeedCache"]
 	path = wiki/w/extensions/LiteSpeedCache
 	url = https://github.com/litespeedtech/lscache_mediawiki
@@ -274,3 +348,4 @@
 [submodule "wiki/w/extensions/DynamicPageList4"]
 	path = wiki/w/extensions/DynamicPageList4
 	url = https://github.com/Universal-Omega/DynamicPageList4
+	branch = REL1_43
