@@ -59,5 +59,5 @@ wfLoadExtension('Lockdown');
 
 define("NS_NONPUBLIC", 250);
 $wgExtraNamespaces[NS_NONPUBLIC] = "Nonpublic";
-$wgNamespacePermissionLockdown[NS_NONPUBLIC]['read'] = array('user')
-$wgNamespacePermissionLockdown[NS_NONPUBLIC]['edit'] = array('user')
+$wgNamespacePermissionLockdown[NS_NONPUBLIC]['read'] = array('user');
+$wgNamespacePermissionLockdown[NS_NONPUBLIC]['edit'] = array('user');
