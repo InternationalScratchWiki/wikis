@@ -12,3 +12,4 @@ error_log
 *.save
 *.vs*
 *.log
+*sitemap.xml
