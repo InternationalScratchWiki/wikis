@@ -55,6 +55,7 @@ $swgRealNameOptions = true;
 $swgBetaToolbar = true;
 
 $swgUseExtensions = [
+	'CategoryTree',
 	'CharInsert',
 	'Cite',
 	'InputBox',

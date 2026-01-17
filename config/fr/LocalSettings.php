@@ -69,7 +69,6 @@ $wgGroupPermissions['*']['editaprilfoolstalk'] = true;
 ## Common extensions and their settings
 
 $swgUseExtensions = array_merge( $swgUseExtensions, [
-	'CategoryTree',
 	'CheckUser',
 	'DSN',
 	'DynamicPageList',

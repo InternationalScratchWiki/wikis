@@ -66,7 +66,6 @@ $wgRateLimits['move']['&can-bypass'] = false;
 
 $swgUseExtensions = array_merge( $swgUseExtensions, [
 	'EmbedVideo',
-	'CategoryTree',
 	'EmbedPhosphorus',
 	'Report',
 	'mediawiki-scratch-login',

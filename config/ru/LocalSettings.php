@@ -49,8 +49,6 @@ $wgGroupPermissions['bot']['botplus'] = true;
 $swgUseExtensions = array_merge( array_diff( $swgUseExtensions, [
 	'Editcount', // this is specifically disabled
 ] ), [
-	# CategoryTree extension - added 11/07/2018 by Kenny2scratch
-	'CategoryTree',
 	# HitCounter extension - added 2023-05-25 by Kenny2scratch at request of Gohoski
 	'HitCounters',
 	'VisualEditor',
