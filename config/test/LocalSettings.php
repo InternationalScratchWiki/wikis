@@ -99,12 +99,14 @@ $wgUrlProtocols = array_values( array_diff( $wgUrlProtocols, ['tel:'] ) );
 function languagesForNamespaces( $title, &$pagelang ) {
 	global $namespaceToLanguage, $threeLetterCodeToLanguage;
 
+	$langs = MediaWiki\MediaWikiServices::getInstance()->getLanguageFactory();
+
 	if ($title->getNamespace() == NS_TEMPLATE && isset($threeLetterCodeToLanguage[$title->getBaseText()])) {
-		$pagelang = $threeLetterCodeToLanguage[$title->getBaseText()];
+		$pagelang = $langs->getLanguage( $threeLetterCodeToLanguage[$title->getBaseText()] );
 		return true;
 	}
 	if (isset($namespaceToLanguage[$title->getNamespace()])) {
-		$pagelang = $namespaceToLanguage[$title->getNamespace()];
+		$pagelang = $langs->getLanguage( $namespaceToLanguage[$title->getNamespace()] );
 		return true;
 	}
 	return true;
