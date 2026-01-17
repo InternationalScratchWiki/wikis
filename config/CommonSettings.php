@@ -287,7 +287,9 @@ foreach ( array_unique( $swgUseExtensions ) as $ext ) {
 		wfLoadExtension( $ext );
 		$wgScratchBlocks4Langs = array_unique( array_merge(
 			$wgScratchBlocks4Langs ?? [], // allow adding other languages
-			[ $wgLanguageCode, 'en' ] // but wiki language and en are mandatory
+			// but wiki language (minus suffixes) and en are mandatory
+			// TODO: this will break if we ever add a pt-brwiki
+			[ explode( '-', $wgLanguageCode, 1 )[0], 'en' ]
 		) );
 	}
 }
