@@ -39,7 +39,8 @@ $wgFileCacheDirectory = "/home/scratchwiki/web/cache/$wiki";
 
 # Wikis must have account request emails.
 $wgEmergencyContact = "contact@scratch-wiki.info";
-$wgPasswordSender   = "account-requests@scratch-wiki.info";
+$wgPasswordSender   = "no-reply@scratch-wiki.info";
+$NoReplyAddress     = "no-reply@scratch-wiki.info";
 $wgEnableEmail      = true;
 # CG compliance: user email is private communication.
 $wgEnableUserEmail  = false; # UPO
