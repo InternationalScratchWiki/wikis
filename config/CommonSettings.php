@@ -238,6 +238,9 @@ foreach ( array_unique( $swgUseExtensions ) as $ext ) {
 		$wgDefaultUserOptions['visualeditor-enable'] = 0;
 		// Anons require access to the write API for VisualEditor to work
 		$wgGroupPermissions['*']['writeapi'] = true;
+		// Provide API for VisualEditor to understand templates
+		// Added by Kenny2scratch 2026-01-17
+		wfLoadExtension( 'TemplateData' );
 	}
 	if ( $ext == 'AbuseFilter' ) {
 		wfLoadExtension( $ext );
