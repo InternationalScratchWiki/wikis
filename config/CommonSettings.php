@@ -226,17 +226,17 @@ foreach ( array_unique( $swgUseExtensions ) as $ext ) {
 	if ( in_array( $ext, $trivialExtensions ) ) wfLoadExtension( $ext );
 	# Extensions packaged with additional configuration
 	if ( $ext == 'ParserFunctions' ) {
-		wfLoadExtension( 'ParserFunctions' );
+		wfLoadExtension( $ext );
 		$wgPFEnableStringFunctions = true;
 	}
 	if ( $ext == 'VisualEditor' ) {
-		wfLoadExtension( 'VisualEditor' );
+		wfLoadExtension( $ext );
 		$wgDefaultUserOptions['visualeditor-enable'] = 0;
 		// Anons require access to the write API for VisualEditor to work
 		$wgGroupPermissions['*']['writeapi'] = true;
 	}
 	if ( $ext == 'AbuseFilter' ) {
-		wfLoadExtension( 'AbuseFilter' );
+		wfLoadExtension( $ext );
 		$wgGroupPermissions[$swgAFsysop]['abusefilter-modify'] = true;
 		$wgGroupPermissions[$swgAFsysop]['abusefilter-log'] = true;
 		$wgGroupPermissions['*']['abusefilter-log'] = false;
@@ -256,7 +256,7 @@ foreach ( array_unique( $swgUseExtensions ) as $ext ) {
 		$wgGroupPermissions[$swgAFsysop]['abusefilter-modify-global'] = true;
 	}
 	if ( $ext == 'GTag' && isset( $swgGoogleAnalyticsAccount ) ) {
-		wfLoadExtension( 'GTag' );
+		wfLoadExtension( $ext );
 		$wgGTagAnalyticsId = $swgGoogleAnalyticsAccount;
 		$wgGTagAnonymizeIP = true;
 		$wgGTagEnableTCF = true;
@@ -265,23 +265,23 @@ foreach ( array_unique( $swgUseExtensions ) as $ext ) {
 		$wgGroupPermissions['bot']['gtag-exempt'] = true;
 	}
 	if ( $ext == 'CodeMirror' ) {
-		wfLoadExtension( 'CodeMirror' );
+		wfLoadExtension( $ext );
 		$wgDefaultUserOptions['usecodemirror'] = true;
 	}
 	if ( $ext == 'CheckUser' ) {
-		wfLoadExtension( 'CheckUser' );
+		wfLoadExtension( $ext );
 		$wgGroupPermissions['bureaucrat']['checkuser'] = true;
 		$wgGroupPermissions['bureaucrat']['checkuser-log'] = true;
 	}
 	// use Echo - added December 18, 2023 by jvvg
 	if ( $ext == 'Echo' ) {
-		wfLoadExtension( 'Echo' );
+		wfLoadExtension( $ext );
 		//$wgEchoUseJobQueue = true; // disabled while job queue is difficult to use
 	}
 	// Custom ScratchBlocks extension by apple502j
 	// Find here: https://github.com/apple502j/mw-ScratchBlocks4
 	if ( $ext == 'mw-ScratchBlocks4' ) {
-		wfLoadExtension( 'mw-ScratchBlocks4' );
+		wfLoadExtension( $ext );
 		$wgScratchBlocks4Langs = array_unique( array_merge(
 			$wgScratchBlocks4Langs ?? [], // allow adding other languages
 			[ $wgLanguageCode, 'en' ] // but wiki language and en are mandatory
