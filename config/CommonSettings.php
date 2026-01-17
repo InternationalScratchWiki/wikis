@@ -138,7 +138,10 @@ if ($swgEnableUploads) {
 	$wgEnableUploads  = true;
 	$wgUseImageMagick = true;
 	$wgImageMagickConvertCommand = "/usr/bin/convert";
-	$wgFileExtensions = [ 'png', 'gif', 'jpg', 'jpeg', 'pdf', 'sb', 'sb2', 'sb3', 'sprite', 'sprite2', 'sprite3', 'svg'];
+	$wgFileExtensions = array_unique( array_merge(
+		$wgFileExtensions ?? [],
+		[ 'png', 'gif', 'jpg', 'jpeg', 'pdf', 'sb', 'sb2', 'sb3', 'sprite', 'sprite2', 'sprite3', 'svg']
+	) );
 	## If you use ImageMagick (or any other shell command) on a
 	## Linux server, this will need to be set to the name of an
 	## available UTF-8 locale
