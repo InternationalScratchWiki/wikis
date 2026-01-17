@@ -13,4 +13,5 @@ wiki/.htaccess: .htaccess config/private/.htaccess
 
 .PHONY: dirs
 dirs: | $(CACHE_DIRS) $(LOGS_DIRS) $(IMAGES_DIRS)
-	mkdir -p $|
+$(CACHE_DIRS) $(LOGS_DIRS) $(IMAGES_DIRS):
+	mkdir -p $@
