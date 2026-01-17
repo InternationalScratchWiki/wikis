@@ -1,0 +1,30 @@
+{
+	"name": "Le Scratch Wiki en Français",
+	"short_name": "Scratch Wiki Fr",
+	"description": "Site du Scratch Wiki en Français. Pour tout savoir sur Scratch.",
+	"start_url": "/?source=pwa",
+	"scope": "/",
+	"background_color": "#7953C4",
+	"display": "minimal-ui",
+	"orientation": "any",
+	"dir": "auto",
+	"lang": "fr_FR",
+	"icons": [
+		{
+			"src": "/seo/fr-icon192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/seo/fr-icon512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "/seo/fr-icon.svg",
+			"type": "image/svg",
+			"sizes": "150x150"
+		}
+	],
+	"theme_color": "#7953C4"
+}
