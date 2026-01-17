@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /w/load.php?
+Allow: /w/skins/
+Allow: /w/images/
+Allow: /w/resources/
+Disallow: /w/api.php
+Disallow: /w/*
+Disallow: /wiki/Special:
+Disallow: /wiki/Spécial:ApiHelp/*
+Disallow: /wiki/User:
+Disallow: /wiki/Scratch_Wiki:April_Fools/
+Allow: /seo/*
+Allow: /wiki/
+
+Crawl-delay: 10
+
+User-agent: Amazonbot
+Disallow: /w/index.php
+Disallow: /w/api.php
+
+User-agent: openai
+Disallow: *
