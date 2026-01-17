@@ -35,7 +35,7 @@ Header add Permissions-Policy "interest-cohort=()"
 </IfModule>
 
 # Short URL
-RewriteRule ^/?$ w/index.php [R=301,L]
+RewriteRule ^/?$ wiki/ [R=301,L]
 RewriteRule ^/?wiki/(.*)$ w/index.php/$1 [L]
 
 # Extremely convoluted rules that correctly redirect each wiki's
