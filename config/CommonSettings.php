@@ -175,9 +175,6 @@ $trivialExtensions = [
 	'RandomInCategory',
 	'RandomSelection',
 	'mw-scratchsig3',
-	// Custom ScratchBlocks extension by apple502j
-	// Find here: https://github.com/apple502j/mw-ScratchBlocks4
-	'mw-ScratchBlocks4',
 	'scratch-confirmaccount-v3',
 	'Editcount',
 	'SyntaxHighlight_PrismJS',
@@ -280,6 +277,15 @@ foreach ( array_unique( $swgUseExtensions ) as $ext ) {
 	if ( $ext == 'Echo' ) {
 		wfLoadExtension( 'Echo' );
 		//$wgEchoUseJobQueue = true; // disabled while job queue is difficult to use
+	}
+	// Custom ScratchBlocks extension by apple502j
+	// Find here: https://github.com/apple502j/mw-ScratchBlocks4
+	if ( $ext == 'mw-ScratchBlocks4' ) {
+		wfLoadExtension( 'mw-ScratchBlocks4' );
+		$wgScratchBlocks4Langs = array_unique( array_merge(
+			$wgScratchBlocks4Langs ?? [], // allow adding other languages
+			[ $wgLanguageCode, 'en' ] // but wiki language and en are mandatory
+		) );
 	}
 }
 
