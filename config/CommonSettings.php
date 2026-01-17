@@ -285,11 +285,14 @@ foreach ( array_unique( $swgUseExtensions ) as $ext ) {
 	// Find here: https://github.com/apple502j/mw-ScratchBlocks4
 	if ( $ext == 'mw-ScratchBlocks4' ) {
 		wfLoadExtension( $ext );
+		// to correct for MW vs ScratchBlocks language code differences
+		$mwToSbLangMap = [
+			'nl-informal' => 'nl',
+		];
 		$wgScratchBlocks4Langs = array_unique( array_merge(
 			$wgScratchBlocks4Langs ?? [], // allow adding other languages
-			// but wiki language (minus suffixes) and en are mandatory
-			// TODO: this will break if we ever add a pt-brwiki
-			[ explode( '-', $wgLanguageCode, 1 )[0], 'en' ]
+			// but wiki language and en are mandatory
+			[ $mwToSbLangMap[$wgLanguageCode] ?? $wgLanguageCode, 'en' ]
 		) );
 	}
 }
