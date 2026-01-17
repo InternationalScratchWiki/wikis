@@ -46,7 +46,6 @@ $wgGroupPermissions['sysop']['interwiki'] = true;
 ## Common extensions and their settings
 
 $swgUseExtensions = array_merge( $swgUseExtensions, [
-	'LiteSpeedCache',
 	'VisualEditor',
 	'mediawiki-scratch-login',
 ] );
