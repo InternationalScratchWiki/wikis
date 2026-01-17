@@ -22,6 +22,7 @@ $wgLogo = "/w/images/Hungarian_Scratch_Wiki_logo.png";
 
 ## Other site-specific non-extension settings
 
+$swgEmailOptions = false;
 $wgEnotifUserTalk      = false; # UPO
 $wgEnotifWatchlist     = false; # UPO
 $wgEmailAuthentication = true;
