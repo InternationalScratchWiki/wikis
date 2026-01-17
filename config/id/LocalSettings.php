@@ -5,11 +5,6 @@
 // ini_set('log_errors', 'On');
 // error_reporting(E_ALL);
 
-# Protect against web entry
-if ( !defined( 'MEDIAWIKI' ) ) {
-	exit;
-}
-
 # When you make changes to this configuration file, this will make
 # sure that cached pages are cleared.
 $wgCacheEpoch = max( $wgCacheEpoch, gmdate( 'YmdHis', @filemtime( __FILE__ ) ) );

@@ -1,4 +1,9 @@
 <?php
+# Protect against web entry
+if ( !defined( 'MEDIAWIKI' ) ) {
+	exit;
+}
+
 #ini_set('display_errors', 'On');
 #error_reporting(E_ERROR | E_PARSE | E_USER_ERROR);
 
@@ -45,4 +50,3 @@ $confRoot = '/home/scratchwiki/web/config';
 require_once "$confRoot/DefaultCS.php";
 require_once "$confRoot/$wiki/LocalSettings.php";
 require_once "$confRoot/CommonSettings.php";
-

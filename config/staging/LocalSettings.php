@@ -5,12 +5,6 @@ ini_set('display_errors', 'On');
 ini_set('log_errors', 'On');
 error_reporting(E_ALL);
 
-if ( $wgCommandLineMode ) {
-	if ( isset( $_SERVER ) && array_key_exists( 'REQUEST_METHOD', $_SERVER ) ) {
-		die( "This script must be run from the command line\n" );
-	}
-}
-
 # When you make changes to this configuration file, this will make
 # sure that cached pages are cleared.
 $wgCacheEpoch = max( $wgCacheEpoch, gmdate( 'YmdHis', @filemtime( __FILE__ ) ) );
