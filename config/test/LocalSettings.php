@@ -92,7 +92,9 @@ $wgNamespacesWithSubpages = array_fill( 0, 3100, true ); //allow subpages on eve
 
 // Unset telephone URL protocol to avoid conflict with Telugu namespace
 // Added 2023-04-07 by Kenny2scratch
-$wgUrlProtocols = array_diff($wgUrlProtocols, ['tel:']);
+// Modified 2026-01-17 by Kenny2scratch to fix
+// "array value found, but an array is required" update.php warning
+$wgUrlProtocols = array_values( array_diff( $wgUrlProtocols, ['tel:'] ) );
 
 function languagesForNamespaces( $title, &$pagelang ) {
 	global $namespaceToLanguage, $threeLetterCodeToLanguage;
