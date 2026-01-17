@@ -340,5 +340,9 @@ if ($swgUseForeignFiles) {
 	}
 }
 
+if ($swgDebugLogs) {
+	$wgDebugLogFile = "/home/scratchwiki/web/logs/$wiki/requests.log";
+}
+
 // load checker to avoid overloading the server with excessive requests
 require dirname(__FILE__) . '/loadchecker.php';

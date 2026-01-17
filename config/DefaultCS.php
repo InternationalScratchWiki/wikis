@@ -77,3 +77,5 @@ $swgUseWELabs = false;
 $swgUseLinkPreviews = true;
 
 $swgUseForeignFiles = true;
+
+$swgDebugLogs = false;

@@ -4,6 +4,7 @@
 ini_set('display_errors', 'On');
 ini_set('log_errors', 'On');
 error_reporting(E_ALL);
+$wgShowExceptionDetails = true;
 
 # When you make changes to this configuration file, this will make
 # sure that cached pages are cleared.
@@ -19,8 +20,7 @@ $wgLogo	= "/w/images/Wiki.png";
 
 $wgDefaultUserOptions['forceeditsummary'] = 1;
 
-$wgShowExceptionDetails = true;
-$wgDebugLogFile = "$IP/requests.log";
+$swgDebugLogs = true;
 
 # Staging header color
 $wgDefaultUserOptions['scratchwikiskin-header-color'] = '#FF0000';
