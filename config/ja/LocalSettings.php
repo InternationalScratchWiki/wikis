@@ -153,12 +153,8 @@ $wgRelatedArticlesDescriptionSource = "pagedescription";
 // AutoSitemap
 
 wfLoadExtension( 'AutoSitemap' );
-
-$wgAutoSitemap["notify"] = [
-    'https://www.google.com/webmasters/sitemaps/ping?sitemap=',
-    'https://www.bing.com/webmaster/ping.aspx?sitemap='
-];
-
+$wgAutoSitemap["filename"] = "ja-sitemap.xml";
+$wgAutoSitemap["server"] = "https://ja.scratch-wiki.info/seo/";
 $wgAutoSitemap["exclude_namespaces"] = [
     NS_TALK,
     NS_USER,
