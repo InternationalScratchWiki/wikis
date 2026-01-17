@@ -18,7 +18,7 @@ $wgNamespaceAliases = [
 	'Discussion_Scratch_Wiki_en_français' => NS_PROJECT_TALK,
 ];
 $wgLanguageCode = "fr";
-$wgLogo = "/w/wikilogo.svg";
+$wgLogo = "/w/images/wikilogo.svg";
 
 ## Other site-specific non-extension settings
 
