@@ -133,6 +133,7 @@ $swgUseExtensions = array_merge( $swgUseExtensions, [
 	'NSH',
 	'Math',
 	'Echo',
+	'VisualEditor',
 ] );
 
 $swgUseLinkPreviews = true;
