@@ -141,6 +141,12 @@ $swgUseLinkPreviews = true;
 $wgScratchAccountCheckDisallowNewScratcher = true;
 $wgScratchAccountJoinedRequirement = 2 * 30 * 24 * 60 * 60;
 
+# SB has zh variants but no zh
+$wgScratchBlocks4Langs = array_merge(
+	array_diff( $wgScratchBlocks4Langs, [ 'zh' ] ),
+	[ 'zh_tw', 'zh_cn' ]
+);
+
 ## Site-specific extensions and their settings
 
 # RecentChangesWebhooks extension - added August 14 2018
