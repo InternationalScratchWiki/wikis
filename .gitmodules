@@ -349,3 +349,9 @@
 	path = wiki/w/extensions/DynamicPageList4
 	url = https://github.com/Universal-Omega/DynamicPageList4
 	branch = REL1_43
+[submodule "wiki/w/extensions/ScratchOAuth2"]
+	path = wiki/w/extensions/ScratchOAuth2
+	url = https://github.com/ScratchVerifier/ScratchOAuth2.git
+[submodule "wiki/w/extensions/OGMetaPF"]
+	path = wiki/w/extensions/OGMetaPF
+	url = https://github.com/Kenny2github/OGMetaPF.git
