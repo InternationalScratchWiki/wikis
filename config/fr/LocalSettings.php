@@ -104,7 +104,7 @@ $wgEmbedVideoEnableAudioHandler = true;
 # Added by Smrman on October 9, 2018
 wfLoadExtension( 'AutoSitemap' );
 $wgAutoSitemap['filename'] = 'fr-sitemap.xml';
-$wgAutoSitemap['server'] = 'https://fr.scratch-wiki.info/seo/'
+$wgAutoSitemap['server'] = 'https://fr.scratch-wiki.info/seo/';
 $wgAutoSitemap['freq'] = 'daily';
 
 # GuidedTour
