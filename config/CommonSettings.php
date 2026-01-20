@@ -316,8 +316,9 @@ if (!$swgUseWELabs) {
 //show link previews if enabled
 if ($swgUseLinkPreviews) {
 	$wgExtractsRemoveClasses = array_merge( $wgExtractsRemoveClasses ?? [], [ '.extract-ignore' ] );
-	wfLoadExtension( 'TextExtracts' );
-	wfLoadExtension( 'PageImages' );
+	// wfLoadExtension('TextExtracts');
+	// Disabled due to CG-violating license by Kenny2scratch 2026-01-20
+	// wfLoadExtension('PageImages');
 	// wfLoadExtension('Popups');
 }
 
