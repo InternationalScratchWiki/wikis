@@ -81,14 +81,6 @@ $wgGroupPermissions['extendedconfirmed']['extendedconfirmed'] = true;
 $wgGroupPermissions['sysop']['extendedconfirmed'] = true;
 $wgGroupPermissions['bot']['extendedconfirmed'] = true;
 
-// Remove interface admin
-unset( $wgGroupPermissions['interface-admin'] );
-unset( $wgRevokePermissions['interface-admin'] );
-unset( $wgAddGroups['interface-admin'] );
-unset( $wgRemoveGroups['interface-admin'] );
-unset( $wgGroupsAddToSelf['interface-admin'] );
-unset( $wgGroupsRemoveFromSelf['interface-admin'] );
-
 ## Common extensions and their settings
 
 $swgUseExtensions = array_merge( $swgUseExtensions, [

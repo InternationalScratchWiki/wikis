@@ -348,5 +348,26 @@ if ($swgDebugLogs) {
 	$wgDebugLogFile = "/home/scratchwiki/web/logs/$wiki/requests.log";
 }
 
+if ($swgMergePermissionsInto) {
+	// give	a group suppressor and interface admin permissions
+	// some suppressor permissions given partially by Kenny2scratch 2020-08-24
+	// some interface admin permissions given partially by jvvg 2021-03-09
+	// all of both given by Kenny2scratch 2025-12-30
+	// given to sysops instead of bureaucrats, and globally, by Kenny2scratch 2026-01-15
+	// given to configurable group and source groups unset globally by Kenny2scratch 2026-01-19
+	foreach ( ['interface-admin', 'suppress'] as $group ) {
+		foreach ( $wgGroupPermissions[$group] as $perm => $given ) {
+			$wgGroupPermissions[$swgMergePermissionsInto][$perm] = ($given || $wgGroupPermissions[$swgMergePermissionsInto][$perm]);
+		}
+		// Remove the group
+		unset( $wgGroupPermissions[$group] );
+		unset( $wgRevokePermissions[$group] );
+		unset( $wgAddGroups[$group] );
+		unset( $wgRemoveGroups[$group] );
+		unset( $wgGroupsAddToSelf[$group] );
+		unset( $wgGroupsRemoveFromSelf[$group] );
+	}
+}
+
 // load checker to avoid overloading the server with excessive requests
 require dirname(__FILE__) . '/loadchecker.php';
