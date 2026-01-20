@@ -54,3 +54,10 @@ $wgUpgradeKey = [
     ...
 ][$wiki];
 ```
+
+## Adding a wiki
+In the extremely infrequent event that a new wiki is to be added, the following must be done to support it:
+* Add its subdomain to the `WIKIS` variable in `Makefile` and then run `make`.
+* Add rewrite rules to `.htaccess` in the same format as those for existing wikis and then run `make`.
+* Create its database and add its credentials to `config/private`.
+* Generate its `$wgUpgradeKey` and `$wgSecretKey` and add them to `config/private`.
