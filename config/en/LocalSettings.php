@@ -88,7 +88,7 @@ $wgGroupPermissions['sysop']['EWplus'] = true;
 
 $wgGroupPermissions['autoconfirmed']['autoconfirmed'] = false;
 $wgGroupPermissions['wikian']['autoconfirmed'] = true;
-$wgRateLimits['edit']['newbie'] = [1, 180];
+$wgRateLimits['edit']['newbie'] = [2, 180];
 $wgRateLimits['move']['newbie'] = [1, 180];
 
 ## Common extensions and their settings

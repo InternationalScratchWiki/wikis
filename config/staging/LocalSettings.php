@@ -53,10 +53,10 @@ $wgGroupPermissions['sysop']['EWplus'] = true;
 
 // testing built-in rate limits
 // Kenny2scratch replaced RateLimiter extension test on 2025-12-30
-$wgRateLimits['edit']['bureaucrat'] = [1, 60];
+$wgRateLimits['edit']['bureaucrat'] = [2, 60];
 $wgRateLimits['move']['bureaucrat'] = [1, 60];
 // most permissive limit applies
-$wgRateLimits['edit']['user'] = [1, 60];
+$wgRateLimits['edit']['user'] = [2, 60];
 $wgRateLimits['move']['user'] = [1, 60];
 // bureaucrats have noratelimit
 $wgRateLimits['edit']['&can-bypass'] = false;
