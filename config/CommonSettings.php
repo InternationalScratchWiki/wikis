@@ -346,7 +346,9 @@ if ($swgUseForeignFiles) {
 }
 
 if ($swgDebugLogs) {
-	$wgDebugLogFile = "/home/scratchwiki/web/logs/$wiki/requests.log";
+	$date = gmdate( 'Y-m-d' );
+	$wgDebugLogFile = "/home/scratchwiki/web/logs/$wiki/$date-requests.log";
+	$wgDebugLogGroups['ratelimit'] = "/home/scratchwiki/web/logs/$wiki/$date-ratelimit.log";
 }
 
 if ($swgMergePermissionsInto) {
