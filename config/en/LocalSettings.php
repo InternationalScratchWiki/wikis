@@ -72,33 +72,7 @@ $wgAutopromote['wikian'] = [
 # Make Wikian an implicit-only group - Kenny2scratch 2025-12-30
 $wgImplicitGroups[] = 'wikian';
 # Remove autoconfirmed ("New Wikian") if Wikian is granted - Kenny2scratch 2025-12-30
-define('APCOND_MAXEDITCOUNT', 50);
-define('APCOND_MAXAGE', 51);
-$wgHooks['AutopromoteCondition'][] = function ( $type, array $args, User $user, ?bool &$result ) {
-	$services = MediaWiki\MediaWikiServices::getInstance();
-	$options = $services->getMainConfig();
-	switch ($type) {
-		case APCOND_MAXEDITCOUNT:
-			$reqEditCount = $args[0] ?? $options->get(MediaWiki\MainConfigNames::AutoConfirmCount);
-			if ($reqEditCount < 0) {
-				$result = false;
-				return;
-			}
-			$result = $user->isRegistered() && $services->getUserEditTracker()->getUserEditCount($user) <= $reqEditCount;
-			return;
-		case APCOND_MAXAGE:
-			$reqAge = $args[0] ?? $options->get(MediaWiki\MainConfigNames::AutoConfirmAge);
-			$age = time() - (int)wfTimestampOrNull(TS_UNIX, $user->getRegistration());
-			$result = $age <= $reqAge;
-			return;
-	}
-};
-// invert Wikian conditions
-$wgAutopromote['autoconfirmed'] = [
-        '|',
-        [APCOND_MAXEDITCOUNT, 50-1],
-        [APCOND_MAXAGE, 2592000-1],
-];
+$wgAutopromote['autoconfirmed'] = ['!', $wgAutopromote['wikian']];
 
 // Protection level that includes bots
 $wgRestrictionLevels[] = 'botplus';
