@@ -250,9 +250,9 @@ foreach ( array_unique( $swgUseExtensions ) as $ext ) {
 		$wgGroupPermissions['*']['abusefilter-log-detail'] = false;
 		$wgGroupPermissions[$swgAFsysop]['abusefilter-log-detail'] = true;
 		$wgGroupPermissions['*']['abusefilter-view'] = true;
-		$wgGroupPermissions['*']['abusefilter-private'] = false;
+		$wgGroupPermissions['*']['abusefilter-privatedetails'] = false;
 		$wgGroupPermissions['*']['abusefilter-modify-restricted'] = false;
-		$wgGroupPermissions[$swgAFsysop]['abusefilter-private'] = true;
+		$wgGroupPermissions[$swgAFsysop]['abusefilter-privatedetails'] = true;
 		$wgGroupPermissions[$swgAFsysop]['abusefilter-modify-restricted'] = true;
 		$wgGroupPermissions[$swgAFsysop]['abusefilter-revert'] = true;
 		$wgGroupPermissions[$swgAFsysop]['abusefilter-log-private'] = true;
