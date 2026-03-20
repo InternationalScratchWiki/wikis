@@ -88,8 +88,6 @@ $wgGroupPermissions['sysop']['EWplus'] = true;
 
 $wgGroupPermissions['autoconfirmed']['autoconfirmed'] = false;
 $wgGroupPermissions['wikian']['autoconfirmed'] = true;
-$wgRateLimits['edit']['newbie'] = [2, 180];
-$wgRateLimits['move']['newbie'] = [1, 180];
 
 ## Common extensions and their settings
 
@@ -159,5 +157,18 @@ $wgElectionCountMethod = 'borda';
 $wgGroupPermissions['user']['vote'] = true;
 $wgGroupPermissions['Experienced_Wikians']['vote'] = false;
 $wgGroupPermissions['Experienced_Wikians']['viewelectionresults'] = true;
+
+// rate limiter
+$swgUseRateLimiter = true;
+$wgRateLimiterRestrictions['autoconfirmed'] = [
+	'limited' => true,
+	'limit' => 2,
+	'interval' => 300,
+	'priority' => 1
+];
+$wgRateLimiterRestrictions['wikian'] = [
+	'limited' => false,
+	'priority' => 2
+];
 
 wfLoadExtension('ResourceLogger');

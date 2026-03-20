@@ -1,6 +1,6 @@
 <?php
 $expiry_secs = 7200;
-$load_threshold = 500;
+$load_threshold = 750;
 
 $ip = isset($_SERVER['CF-Connecting-IP']) ? $_SERVER['CF-Connecting-IP'] : (isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : '(no remote addr)');
 

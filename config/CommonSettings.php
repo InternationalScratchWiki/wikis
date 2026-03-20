@@ -378,5 +378,9 @@ if ($swgMergePermissionsInto) {
 	}
 }
 
+if ($swgUseRateLimiter) {
+	wfLoadExtension('RateLimiter');
+}
+
 // load checker to avoid overloading the server with excessive requests
 require dirname(__FILE__) . '/loadchecker.php';

@@ -72,3 +72,5 @@ $swgUseForeignFiles = true;
 $swgDebugLogs = false;
 
 $swgMergePermissionsInto = 'sysop';
+
+$swgUseRateLimiter = false;

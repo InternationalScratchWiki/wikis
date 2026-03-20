@@ -355,3 +355,6 @@
 [submodule "wiki/w/extensions/OGMetaPF"]
 	path = wiki/w/extensions/OGMetaPF
 	url = https://github.com/Kenny2github/OGMetaPF.git
+[submodule "wiki/w/extensions/RateLimiter"]
+	path = wiki/w/extensions/RateLimiter
+	url = https://github.com/InternationalScratchWiki/rate-limiter.git
