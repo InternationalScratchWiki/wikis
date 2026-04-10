@@ -87,7 +87,7 @@ $swgUseExtensions = array_merge( $swgUseExtensions, [
 	# Allows users to login with Scratch account
 	# https://github.com/InternationalScratchWiki/mediawiki-scratch-login
 	# Added by Smrman on April 13, 2021
-	'mediawiki-scratch-login',
+	// 'mediawiki-scratch-login', // disabled by jvvg 2026-04-10 as emergency measure
 ] );
 
 $swgUseLinkPreviews = true;

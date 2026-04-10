@@ -98,7 +98,7 @@ $swgUseExtensions = array_merge( $swgUseExtensions, [
 	'EmbedScratch',
 	'Echo',
 	// Enable ScratchPasswordReset - Kenny2scratch 2022-08-14
-	'mediawiki-scratch-login',
+	// 'mediawiki-scratch-login', // disabled by jvvg 2026-04-10 as emergency measure
 ] );
 
 $swgUseLinkPreviews = true;

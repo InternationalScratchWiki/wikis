@@ -93,7 +93,7 @@ $wgGroupPermissions['wikian']['autoconfirmed'] = true;
 
 $swgUseExtensions = array_merge( $swgUseExtensions, [
 	'Report',
-	'mediawiki-scratch-login',
+	// 'mediawiki-scratch-login', // jvvg removed ScratchLogin on April 10, 2026 as an emergency measure
 	'EventStreamConfig',
 	'EventLogging',
 	'DSN',

@@ -53,7 +53,7 @@ $swgUseExtensions = array_merge( array_diff( $swgUseExtensions, [
 	'HitCounters',
 	'VisualEditor',
 	// Scratch password reset (and login) - added 2022-11-06 by Kenny2scratch
-	'mediawiki-scratch-login',
+	// 'mediawiki-scratch-login', // removed as emergency measure on 2026-04-10 by jvvg
 ] );
 
 $swgUseLinkPreviews = true;

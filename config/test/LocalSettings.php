@@ -136,7 +136,7 @@ $swgUseExtensions = array_merge( array_diff( $swgUseExtensions, [
 ] ), [
 	'HitCounters',
 	'CheckUser',
-	'mediawiki-scratch-login',
+	// 'mediawiki-scratch-login', // removed by jvvg 2026-04-10 as emergency measure
 	'VisualEditor',
 ] );
 
