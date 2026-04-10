@@ -52,7 +52,7 @@ $swgUseExtensions = [
 	'ParserFunctions',
 	'ScratchSig',
 	'ScratchBlocks',
-	'ConfirmAccount3',
+	// 'ConfirmAccount3', // disabled by jvvg April 10, 2026 as an emergency measure due to server being blacklisted
 	'Editcount',
 	'CodeMirror',
 	'LsCache',
