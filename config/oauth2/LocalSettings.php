@@ -45,4 +45,4 @@ $wgSWS2ForceDarkTheme = true;
 wfLoadExtension( 'OGMetaPF' );
 
 wfLoadExtension( 'ScratchOAuth2' );
-$wgSOA2AdminUsers = [10114764, 35751470, 62962013];
+$wgSOA2AdminUsers = [10114764, 62962013];
