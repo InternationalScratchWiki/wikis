@@ -31,7 +31,9 @@ $wgHooks['PersonalUrls'][] = function ( array &$personal_urls, $title, $skin ) {
 
 ## Common extensions and their settings
 
-$swgUseExtensions = array_merge( $swgUseExtensions, [
+$swgUseExtensions = array_merge( array_diff( $swgUseExtensions, [
+	'ConfirmAccount3', // this is specifically disabled on this wiki
+] ), [
 	'CodeEditor',
 ] );
 
