@@ -152,6 +152,10 @@ if ($swgEnableUploads) {
 	## Linux server, this will need to be set to the name of an
 	## available UTF-8 locale
 	$wgShellLocale = "en_US.utf8";
+
+	// Use this setting introduced in 1.41 instead of NativeSvgHandler
+	// - Kenny2scratch 2026-07-21
+	$wgSVGNativeRendering = true;
 }
 
 if ($swgRightsOptions) {
@@ -187,7 +191,6 @@ $trivialExtensions = [
 	'scratch-confirmaccount-v3',
 	'Editcount',
 	'SyntaxHighlight_PrismJS',
-	'NativeSvgHandler',
 	// EmbedVideo is a fork since 1.39 upgrade
 	'EmbedVideo',
 	'LabeledSectionTransclusion',
