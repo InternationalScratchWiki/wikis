@@ -137,8 +137,13 @@ if ($swgEmailOptions) {
 
 if ($swgEnableUploads) {
 	$wgEnableUploads  = true;
-	$wgUseImageMagick = true;
-	$wgImageMagickConvertCommand = "/usr/bin/convert";
+	// Hosting provider disabled proc_open() at some point recently.
+	// All we can do is disable ImageMagick as a consequence.
+	// However, we can at least use imagick for SVG thumbnails.
+	// - Kenny2scratch 2026-07-21
+	$wgUseImageMagick = false;
+	$wgSVGConverter = 'ImagickExt';
+
 	$wgFileExtensions = array_unique( array_merge(
 		$wgFileExtensions ?? [],
 		[ 'png', 'gif', 'jpg', 'jpeg', 'pdf', 'sb', 'sb2', 'sb3', 'sprite', 'sprite2', 'sprite3', 'svg']
