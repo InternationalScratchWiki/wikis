@@ -72,8 +72,9 @@ $wgSearchType = 'SearchMySQL';
 $wgAutoblockExpiry = 15552000;
 
 // use faster diff tools
-$wgDiff = '/bin/diff';
-$wgDiff3 = '/bin/diff3';
+// disabled by Kenny2scratch 2026-08-14 due to hosting disabling popen() et al.
+//$wgDiff = '/bin/diff';
+//$wgDiff3 = '/bin/diff3';
 
 # Permissions. These must be global.
 
