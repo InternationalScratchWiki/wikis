@@ -75,6 +75,8 @@ $wgAutoblockExpiry = 15552000;
 // disabled by Kenny2scratch 2026-08-14 due to hosting disabling popen() et al.
 //$wgDiff = '/bin/diff';
 //$wgDiff3 = '/bin/diff3';
+$wgDiff = false;
+$wgDiff3 = false;
 
 # Permissions. These must be global.
 
