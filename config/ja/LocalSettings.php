@@ -102,6 +102,8 @@ $swgUseExtensions = array_merge( $swgUseExtensions, [
 ] );
 
 $swgUseLinkPreviews = true;
+// Enable Hiragana blocks - Kenny2scratch at the request of apple502j 2026-09-13
+$wgScratchBlocks4Langs = ['ja-Hira'];
 
 // Changed from previous project (of which the current one is a remix)
 // on 2024-10-29 by Kenny2scratch
