@@ -127,7 +127,6 @@ abstract class SiteConfig {
 		if ( is_string( $configOrSpec ) || isset( $configOrSpec['class'] ) || isset( $configOrSpec['factory'] ) ) {
 			// Treat this as an object factory spec for an ExtensionModule
 			// ObjectFactory::createObject accepts an array, not just a callable (phan bug)
-			// @phan-suppress-next-line PhanTypeInvalidCallableArraySize
 			$module = $this->getObjectFactory()->createObject( $configOrSpec, [
 				'allowClassName' => true,
 				'assertClass' => ExtensionModule::class,
@@ -450,7 +449,10 @@ abstract class SiteConfig {
 	 * @return string
 	 */
 	public function ucfirst( string $str ): string {
-		$o = ord( $str );
+		if ( $str === '' ) {
+			return '';
+		}
+		$o = ord( $str[0] );
 		if ( $o < 96 ) { // if already uppercase...
 			return $str;
 		} elseif ( $o < 128 ) {

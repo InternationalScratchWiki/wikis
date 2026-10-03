@@ -37,7 +37,8 @@
 			"Silvar",
 			"Võrok",
 			"WikedKentaur",
-			"לערי ריינהארט"
+			"לערי ריינהארט",
+			"Rivoz"
 		]
 	},
 	"sunday": "pühapäev",
@@ -333,7 +334,7 @@
 	"viewsource-title": "Lehekülje $1 lähteteksti vaatamine",
 	"actionthrottled": "Toiming nurjus",
 	"actionthrottledtext": "Väärtarvituse vastase meetmena pole sul lubatud lühikese aja jooksul seda toimingut liiga palju kordi sooritada. Oled piirangu ületanud. Palun proovi mõne aja pärast uuesti.",
-	"protectedpagetext": "See lehekülg on lukustatud, et ei tehtaks muudatusi ega sooritataks muid toiminguid.",
+	"protectedpagetext": "See lehekülg on kaitstud, et ei tehtaks muudatusi ega sooritataks muid toiminguid.",
 	"viewsourcetext": "Saad vaadata ja kopeerida selle lehekülje lähteteksti.",
 	"viewyourtext": "Saad vaadata ja kopeerida sellel leheküljel tehtud <strong>enda muudatuste</strong> lähteteksti.",
 	"protectedinterface": "Sellel leheküljel on selle viki tarkvara kasutajaliidese tekst. Väärtarvituse vältimiseks on lehekülg kaitstud.\nEt lisada ja muuta tõlkeid kõigi vikide jaoks, kasuta palun MediaWiki lokaliseerimisprojekti [https://translatewiki.net/ translatewiki.net].",
@@ -2199,7 +2200,7 @@
 	"addedwatchexpiryhours": "\"[[:$1]]\" ja selle arutelulehekülg on lisatud mõneks tunniks sinu [[Special:Watchlist|jälgimisloendisse]].",
 	"addedwatchexpiryhours-talk": "\"[[:$1]]\" ja sellega seotud lehekülg on lisatud mõneks tunniks sinu [[Special:Watchlist|jälgimisloendisse]].",
 	"addedwatchexpirytext": "\"[[:$1]]\" ja selle arutelulehekülg on lisatud sinu [[Special:Watchlist|jälgimisloendisse]] tähtajaga $2.",
-	"addedwatchexpirytext-talk": "\"[[:$1]]\" seotud lehekülg on lisatud sinu [[Special:Watchlist|jälgimisloendisse]] tähtajaga $2.",
+	"addedwatchexpirytext-talk": "\"[[:$1]]\" ja sellega seotud lehekülg on lisatud sinu [[Special:Watchlist|jälgimisloendisse]] tähtajaga $2.",
 	"addedwatchindefinitelytext": "\"[[:$1]]\" ja selle arutelulehekülg on lisatud sinu [[Special:Watchlist|jälgimisloendisse]] tähtajatult.",
 	"addedwatchindefinitelytext-talk": "\"[[:$1]]\" ja seotud lehekülg on lisatud sinu [[Special:Watchlist|jälgimisloendisse]] tähtajatult.",
 	"removewatch": "Eemalda jälgimisloendist",
@@ -4066,6 +4067,7 @@
 	"right-renameuser": "Muuta kasutajanimesid",
 	"renameuser-renamed-notice": "Kasutaja on ümbernimetatud.\nAllpool on toodud ümbernimetamislogi.",
 	"log-unknown-action": "sooritas leheküljel [[$1]] tundmatu toimingu \"$2\"",
+	"log-unsafe-logentry": "(Seda logikannet ei saa näidata, sest selle parameetrid sisaldavad ebaturvalisi jadastatud andmeid.)",
 	"createacct-benefit-heading-temp-user": "Aitäh, et {{GRAMMAR:partitive|{{SITENAME}}}} muutsid.\nLoo konto, et saaksid kasutada rohkem funktsioone.",
 	"createacct-benefit-subheading-temp-user": "{{SITENAME}} on sinusuguste inimeste tehtud. Kontoga on sul alaline ja turvaline juurdepääs näiteks järgmistele funktsioonidele:",
 	"benefit-1-description": "Jälgimisloend, mis aitab pidada järge sulle huvipakkuvate lehekülgede üle.",
