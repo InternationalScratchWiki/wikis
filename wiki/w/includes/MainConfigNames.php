@@ -792,6 +792,18 @@ class MainConfigNames {
 	public const ThumbnailNamespaces = 'ThumbnailNamespaces';
 
 	/**
+	 * Name constant for the ThumbnailSteps setting, for use with Config::get()
+	 * @see MainConfigSchema::ThumbnailSteps
+	 */
+	public const ThumbnailSteps = 'ThumbnailSteps';
+
+	/**
+	 * Name constant for the ThumbnailStepsRatio setting, for use with Config::get()
+	 * @see MainConfigSchema::ThumbnailStepsRatio
+	 */
+	public const ThumbnailStepsRatio = 'ThumbnailStepsRatio';
+
+	/**
 	 * Name constant for the ThumbnailBuckets setting, for use with Config::get()
 	 * @see MainConfigSchema::ThumbnailBuckets
 	 */
@@ -4336,6 +4348,12 @@ class MainConfigNames {
 	 * @see MainConfigSchema::HTTPImportTimeout
 	 */
 	public const HTTPImportTimeout = 'HTTPImportTimeout';
+
+	/**
+	 * Name constant for the HTTPUserAgentContact setting, for use with Config::get()
+	 * @see MainConfigSchema::HTTPUserAgentContact
+	 */
+	public const HTTPUserAgentContact = 'HTTPUserAgentContact';
 
 	/**
 	 * Name constant for the AsyncHTTPTimeout setting, for use with Config::get()

@@ -38,7 +38,9 @@
 			"捍粵者",
 			"星海",
 			"Anterdc99",
-			"Shrubs"
+			"Shrubs",
+			"優枰",
+			"臺灣象象"
 		]
 	},
 	"sunday": "星期日",
@@ -226,6 +228,7 @@
 	"grouppage-suppress": "{{ns:project}}:監督",
 	"right-createaccount": "建立新的用戶帳號",
 	"right-autocreateaccount": "使用外部用戶帳號自動登入",
+	"right-move-rootuserpages": "移動用戶母頁面",
 	"right-upload": "上載檔案",
 	"right-reupload-own": "覆蓋自己上載的現有檔案",
 	"right-suppressrevision": "檢視、隱藏與取消隱藏任何用戶對頁面的修訂",
@@ -245,6 +248,7 @@
 	"grant-highvolume": "大量操作（機械人）取用權",
 	"newuserlogpage": "用戶建立日誌",
 	"rightslog": "用戶權限日誌",
+	"action-move-rootuserpages": "移動用戶母頁面",
 	"action-block": "封鎖或解封此用戶的編輯權限",
 	"action-blockemail": "禁止用戶傳送電子郵件及解除該限制",
 	"recentchanges": "最近修改",
@@ -284,7 +288,7 @@
 	"speciallogtitlelabel": "目標（標題或以「{{ns:user}}:用戶名」表示用戶）：",
 	"checkbox-select": "選擇：$1",
 	"deletedcontributions": "已刪除的用戶貢獻",
-	"deletedcontributions-title": "已刪除用戶$1的貢獻",
+	"deletedcontributions-title": "用戶$1的已刪除貢獻",
 	"listusersfrom": "從此處開始顯示用戶：",
 	"activeusers": "活躍用戶列表",
 	"activeusers-from": "顯示用戶開始自：",

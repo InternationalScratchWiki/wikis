@@ -122,7 +122,7 @@ class DOMDataUtils {
 		} else {
 			$dataObject = null; // Make phan happy
 		}
-		Assert::invariant( isset( $dataObject ), 'Bogus nodeId given!' );
+		Assert::invariant( $dataObject !== null, 'Bogus nodeId given!' );
 		if ( isset( $dataObject->storedId ) ) {
 			throw new UnreachableException(
 				'Trying to fetch node data without loading! ' .
@@ -525,6 +525,10 @@ class DOMDataUtils {
 			// we actually want arrays in the page bundle rather than stdClasses; but we still
 			// want to access the object properties
 			$pb = (object)PHPUtils::jsonDecode( $dpScriptElt->textContent );
+			// Forward-compatibility with Parsoid 0.23
+			if ( isset( $pb->counters['nodedata'] ) && isset( $pb->parsoid ) ) {
+				$pb->parsoid['counter'] = $pb->counters['nodedata'];
+			}
 		}
 		return $pb;
 	}
