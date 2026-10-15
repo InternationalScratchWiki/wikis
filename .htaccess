@@ -52,7 +52,7 @@ RewriteRule ^/?w/images/thumb/archive/([^/]+)/([0-9]+)px-.*$ w/thumb.php?f=$1&wi
 
 RewriteCond %{SERVER_NAME} ^en\.scratch-wiki\. [NC]
 RewriteCond $1 !^en/
-RewriteRule ^/?w/images/(.*)$ w/images/en/$1 [L]
+RewriteRule ^/?w/images/(.*)$ w/images/en/$1 [L,B]
 
 
 RewriteCond %{SERVER_NAME} ^de\.scratch-wiki\. [NC]
@@ -67,7 +67,7 @@ RewriteRule ^/?w/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)
 
 RewriteCond %{SERVER_NAME} ^de\.scratch-wiki\. [NC]
 RewriteCond $1 !^de/
-RewriteRule ^/?w/images/(.*)$ w/images/de/$1 [L]
+RewriteRule ^/?w/images/(.*)$ w/images/de/$1 [L,B]
 
 
 RewriteCond %{SERVER_NAME} ^fr\.scratch-wiki\. [NC]
@@ -82,7 +82,7 @@ RewriteRule ^/?w/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)
 
 RewriteCond %{SERVER_NAME} ^fr\.scratch-wiki\. [NC]
 RewriteCond $1 !^fr/
-RewriteRule ^/?w/images/(.*)$ w/images/fr/$1 [L]
+RewriteRule ^/?w/images/(.*)$ w/images/fr/$1 [L,B]
 
 
 RewriteCond %{SERVER_NAME} ^hu\.scratch-wiki\. [NC]
@@ -97,7 +97,7 @@ RewriteRule ^/?w/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)
 
 RewriteCond %{SERVER_NAME} ^hu\.scratch-wiki\. [NC]
 RewriteCond $1 !^hu/
-RewriteRule ^/?w/images/(.*)$ w/images/hu/$1 [L]
+RewriteRule ^/?w/images/(.*)$ w/images/hu/$1 [L,B]
 
 
 RewriteCond %{SERVER_NAME} ^id\.scratch-wiki\. [NC]
@@ -112,7 +112,7 @@ RewriteRule ^/?w/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)
 
 RewriteCond %{SERVER_NAME} ^id\.scratch-wiki\. [NC]
 RewriteCond $1 !^id/
-RewriteRule ^/?w/images/(.*)$ w/images/id/$1 [L]
+RewriteRule ^/?w/images/(.*)$ w/images/id/$1 [L,B]
 
 
 RewriteCond %{SERVER_NAME} ^ja\.scratch-wiki\. [NC]
@@ -127,7 +127,7 @@ RewriteRule ^/?w/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)
 
 RewriteCond %{SERVER_NAME} ^ja\.scratch-wiki\. [NC]
 RewriteCond $1 !^ja/
-RewriteRule ^/?w/images/(.*)$ w/images/ja/$1 [L]
+RewriteRule ^/?w/images/(.*)$ w/images/ja/$1 [L,B]
 
 
 RewriteCond %{SERVER_NAME} ^nl\.scratch-wiki\. [NC]
@@ -142,7 +142,7 @@ RewriteRule ^/?w/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)
 
 RewriteCond %{SERVER_NAME} ^nl\.scratch-wiki\. [NC]
 RewriteCond $1 !^nl/
-RewriteRule ^/?w/images/(.*)$ w/images/nl/$1 [L]
+RewriteRule ^/?w/images/(.*)$ w/images/nl/$1 [L,B]
 
 
 RewriteCond %{SERVER_NAME} ^ru\.scratch-wiki\. [NC]
@@ -157,7 +157,7 @@ RewriteRule ^/?w/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)
 
 RewriteCond %{SERVER_NAME} ^ru\.scratch-wiki\. [NC]
 RewriteCond $1 !^ru/
-RewriteRule ^/?w/images/(.*)$ w/images/ru/$1 [L]
+RewriteRule ^/?w/images/(.*)$ w/images/ru/$1 [L,B]
 
 
 RewriteCond %{SERVER_NAME} ^test\.scratch-wiki\. [NC]
@@ -172,7 +172,7 @@ RewriteRule ^/?w/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)
 
 RewriteCond %{SERVER_NAME} ^test\.scratch-wiki\. [NC]
 RewriteCond $1 !^test/
-RewriteRule ^/?w/images/(.*)$ w/images/test/$1 [L]
+RewriteRule ^/?w/images/(.*)$ w/images/test/$1 [L,B]
 
 
 RewriteCond %{SERVER_NAME} ^oauth2\.scratch-wiki\. [NC]
@@ -187,7 +187,7 @@ RewriteRule ^/?w/images/thumb/archive/[0-9a-f]/[0-9a-f][0-9a-f]/([^/]+)/([0-9]+)
 
 RewriteCond %{SERVER_NAME} ^oauth2\.scratch-wiki\. [NC]
 RewriteCond $1 !^oauth2/
-RewriteRule ^/?w/images/(.*)$ w/images/oauth2/$1 [L]
+RewriteRule ^/?w/images/(.*)$ w/images/oauth2/$1 [L,B]
 
 
 RewriteCond %{SERVER_NAME} ^staging\.scratch-wiki\. [NC]
@@ -202,4 +202,4 @@ RewriteRule ^/?w/images/thumb/archive/([^/]+)/([0-9]+)px-.*$ w/thumb.php?f=$1&wi
 
 RewriteCond %{SERVER_NAME} ^staging\.scratch-wiki\. [NC]
 RewriteCond $1 !^staging/
-RewriteRule ^/?w/images/(.*)$ w/images/staging/$1 [L]
+RewriteRule ^/?w/images/(.*)$ w/images/staging/$1 [L,B]
