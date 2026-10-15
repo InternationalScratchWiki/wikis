@@ -20,6 +20,9 @@ $wgAllowExternalImagesFrom = [
 	'https://cdn.assets.scratch.mit.edu/',
 	'https://upload.wikimedia.org/',
 ];
+# HACK: Allow users to know that the file is not found rather than just
+# forbidden. Remove when the Alias directive becomes available.
+$wgImgAuthDetails = true;
 # Disable bot passwords
 $wgEnableBotPasswords = false;
 # Sysops are normally allowed to create accounts
