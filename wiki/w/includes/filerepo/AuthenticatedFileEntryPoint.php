@@ -216,7 +216,13 @@ class AuthenticatedFileEntryPoint extends MediaWikiEntryPoint {
 				. " Msg: " . $context->msg( $msg2, $args )->inLanguage( 'en' )->text()
 		);
 
-		$this->status( 403 );
+		if ( in_array( $msg2, [ 'img-auth-nofile', 'img-auth-notindir' ] ) ) {
+			$this->status( 404 );
+		} else if ( in_array( $msg2, [ 'img-auth-badtitle', 'img-auth-isdir' ] ) ) {
+			$this->status( 400 );
+		} else {
+			$this->status( 403 );
+		}
 		$this->header( 'Cache-Control: no-cache' );
 		$this->header( 'Content-Type: text/html; charset=utf-8' );
 		$language = $context->getLanguage();

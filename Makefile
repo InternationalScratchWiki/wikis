@@ -8,8 +8,15 @@ all: htaccess dirs
 
 .PHONY: htaccess
 htaccess: wiki/.htaccess
-wiki/.htaccess: .htaccess config/private/.htaccess
-	cat $^ > $@
+wiki/.htaccess: .htaccess images.htaccess config/private/.htaccess
+	cat .htaccess > $@
+	echo >> $@
+	for WIKI in $(WIKIS); do \
+		sed "s/SUBDOMAIN/$$WIKI/g" images.htaccess >> $@; \
+		echo >> $@; \
+	done
+	echo 'Header set X-Image-Auth "%{IMG_AUTH}e" "env=IMG_AUTH"\n' >> $@
+	cat config/private/.htaccess >> $@
 
 .PHONY: dirs
 dirs: | $(CACHE_DIRS) $(LOGS_DIRS) $(IMAGES_DIRS)

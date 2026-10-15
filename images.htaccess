@@ -1,0 +1,24 @@
+## Redirect https://SUBDOMAIN.scratch-wiki.info/w/images to /w/images/SUBDOMAIN
+
+RewriteCond %{SERVER_NAME} ^SUBDOMAIN\.scratch-wiki\. [NC]
+RewriteCond %{DOCUMENT_ROOT}/w/images/SUBDOMAIN/thumb/$1/$2px-$1 !-f
+RewriteCond %{DOCUMENT_ROOT}/w/images/SUBDOMAIN/thumb/$1/$2px-$1 !-d
+RewriteRule ^/?w/images/thumb/([^/]+)/([0-9]+)px-.*$ w/thumb.php?f=$1&width=$2 [L,QSA,B]
+
+RewriteCond %{SERVER_NAME} ^SUBDOMAIN\.scratch-wiki\. [NC]
+RewriteCond %{DOCUMENT_ROOT}/w/images/SUBDOMAIN/thumb/archive/$1/$2px-$1 !-f
+RewriteCond %{DOCUMENT_ROOT}/w/images/SUBDOMAIN/thumb/archive/$1/$2px-$1 !-d
+RewriteRule ^/?w/images/thumb/archive/([^/]+)/([0-9]+)px-.*$ w/thumb.php?f=$1&width=$2&archived=1 [L,QSA,B]
+
+# Prefer direct file access for most files
+RewriteCond %{SERVER_NAME} ^SUBDOMAIN\.scratch-wiki\. [NC]
+RewriteCond $1 !^SUBDOMAIN/
+RewriteCond %{DOCUMENT_ROOT}/w/images/SUBDOMAIN/$1 -f
+RewriteRule ^/?w/images/(.*)$ w/images/SUBDOMAIN/$1 [L,E=IMG_AUTH:0]
+
+# Route images with problematic titles through img_auth.php
+RewriteCond %{SERVER_NAME} ^SUBDOMAIN\.scratch-wiki\. [NC]
+RewriteCond $1 !^SUBDOMAIN/
+RewriteCond %{DOCUMENT_ROOT}/w/images/SUBDOMAIN/$1 !-f
+RewriteCond %{REQUEST_URI} !^/w/img_auth.php
+RewriteRule ^/?w/images/(.*)$ /w/img_auth.php [L,E=IMG_AUTH:1]
