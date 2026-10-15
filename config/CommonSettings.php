@@ -358,10 +358,11 @@ if ($swgUseForeignFiles) {
 
 if ($swgDebugLogs) {
 	$date = gmdate( 'Y-m-d' );
-	$wgDebugLogFile = "/home/scratchwiki/web/logs/$wiki/$date-requests.log";
+	// serverprofis 2026-10-02: requests-Debuglog abgeschaltet (/home voll, ~1,5 GB/Tag)
+	// $wgDebugLogFile = "/home/scratchwiki/web/logs/$wiki/$date-requests.log";
 	foreach ( [
 		'session',
-		'rdbms',
+		// 'rdbms', // serverprofis 2026-10-02: abgeschaltet (/home voll)
 		'ratelimit',
 	] as $logger ) {
 		$wgDebugLogGroups[$logger] = "/home/scratchwiki/web/logs/$wiki/$date-$logger.log";
