@@ -45,7 +45,7 @@ $wgGroupPermissions['sysop']['interwiki'] = true;
 
 $swgUseExtensions = array_merge( $swgUseExtensions, [
 	'VisualEditor',
-	// 'mediawiki-scratch-login', // removed by jvvg 2026-04-10 as emergency measure
+	'mediawiki-scratch-login',
 ] );
 
 $swgUseLinkPreviews = true;
